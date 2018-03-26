@@ -399,3 +399,25 @@ Language: N/A
 Plot: An experiment using dust, dirt, hair, broken glass, scotch tape and pencil shavings.
 Actors: N/A
 ^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^
+Title: TMNT
+Year: 2007
+Rating: PG
+IMDB Rating : 6.3
+Rotten Tomatoes Rating : N/A
+Country: Hong Kong, USA
+Language: English
+Plot: When the world is threatened by an ancient evil, the four adolescent turtles must reunite and overcome their faults in order to stand against it.
+Actors: Chris Evans, Sarah Michelle Gellar, Mako, Kevin Smith
+^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^
+Title: Mr. Nobody
+Year: 2009
+Rating: R
+IMDB Rating : 7.9
+Rotten Tomatoes Rating : N/A
+Country: Belgium, Germany, Canada, France, USA, UK
+Language: English, Mohawk
+Plot: A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.
+Actors: Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham
+^^^^^^^^^^^^^^^^^^^^^

@@ -15,7 +15,7 @@ var cmd;
 // Initiating Spotify and Twitter with keys in .env via keys.js
 var spotify = new Spotify(keys.spotify);
 var client = new Twitter(keys.twitter);
-// Tried to pull key from .env file via keys.js for OMDB as well, but ended up just putting the key directly in this file for now
+// Tried to pull key from .env file via keys.js for OMDB as well, but ended up just pulling the key directly from process.env for now
 // var omdb = new OMDB(keys.omdb);
 
 // Variables for user input
@@ -96,7 +96,7 @@ switch (command) {
 		var params;
 		if (searchTerm) {
 			params = {
-				apiKey: 'd4783bd0',
+				apiKey: process.env.OMDB_KEY,
 				title: searchTerm,
 				plot: 'short',
 				incTomatoes: true
@@ -104,7 +104,7 @@ switch (command) {
 			// If no input, just search for Mr. Nobody
 		} else {
 			params = {
-				apiKey: 'd4783bd0',
+				apiKey: process.env.OMDB_KEY,
 				title: 'Mr. Nobody',
 				plot: 'short',
 				incTomatoes: true
@@ -168,4 +168,5 @@ switch (command) {
 		// What happens if the user enters a bad command
 	default:
 		console.log("I don't recognize that command. Try again, noob.");
+		console.log(process.env.OMDB_KEY);
 }
