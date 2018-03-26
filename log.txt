@@ -289,3 +289,14 @@ Tweet #13, Created Tue Apr 26 19:22:23 +0000 2016
 Tweet Text:
 Hello Twitter, I just decided you might be worth a little attention. Yes, I've known you exist for a while now, but now I care #myfirstTweet
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^
+Title: Star Wars: Episode IV - A New Hope
+Year: 1977
+Rating: PG
+IMDB Rating : 8.6
+Rotten Tomatoes Rating : N/A
+Country: USA
+Language: English
+Plot: Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a Wookiee and two droids to save the galaxy from the Empire's world-destroying battle-station while also attempting to rescue Princess Leia from the evil Darth Vader.
+Actors: Mark Hamill, Harrison Ford, Carrie Fisher, Peter Cushing
+^^^^^^^^^^^^^^^^^^^^^
