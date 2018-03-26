@@ -1,4 +1,4 @@
-console.log('keys are loaded');
+console.log('---------------------- keys loaded ----------------------');
 
 exports.twitter = {
   consumer_key: process.env.TWITTER_CONSUMER_KEY,
@@ -10,4 +10,8 @@ exports.twitter = {
 exports.spotify = {
   id: process.env.SPOTIFY_ID,
   secret: process.env.SPOTIFY_SECRET
+};
+
+exports.omdb = {
+	id: process.env.OMDB_KEY
 };
