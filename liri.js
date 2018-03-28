@@ -41,7 +41,7 @@ switch (command) {
 					// Write to log
 					fs.appendFile("log.txt", "\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\nTweet #" + (i + 1) + ", Created " + tweetTime + "\nTweet Text:\n" + tweetText + "\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~", function (err) {
 						if (err) {
-							console.log("Failed to update log.txt");
+							return console.log("Failed to update log.txt");
 						}
 						// console.log("Updated log.txt");
 					});
@@ -140,7 +140,7 @@ switch (command) {
 	case "do-what-it-says":
 		fs.readFile('random.txt', function (err, data) {
 			if (err) {
-				console.log(err);
+				return console.log(err);
 			}
 			console.log("\n*$*$*$*$*$*$*$*$*$*$*$*$*$*$*$\nHere's what it says: " + data + "\n*$*$*$*$*$*$*$*$*$*$*$*$*$*$*$");
 			cmd = ('node liri.js ' + data);
