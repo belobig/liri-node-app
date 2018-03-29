@@ -168,5 +168,4 @@ switch (command) {
 		// What happens if the user enters a bad command
 	default:
 		console.log("I don't recognize that command. Try again, noob.");
-		console.log(process.env.OMDB_KEY);
 }
